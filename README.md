@@ -5,5 +5,5 @@ Ayabonga Mhlungu(group leader),
 Alleandro Mupira,
 Farai Shongedza,
 
-Projects done Togethr
+Projects done Together: 
 Coding Culb Website.
