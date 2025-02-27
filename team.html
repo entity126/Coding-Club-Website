@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club</title>
+    <style>
+        .team {
+    backgrotund: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+  }
+  .team h1 {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .team__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team__card {
+    margin: 1rem;
+    height: 400px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #2d2943;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .team__card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team__card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team__card p {
+    font-size: 1rem;
+    color: #e9e9e9;
+  }
+  
+  .team__card:hover {
+    transform: scale(1.05);
+  }
+  body{
+    background-color: #141414;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .team__card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+  }
+  .main__btn {
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4837ff;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover {
+    color: #fff;
+}
+
+.main__btn:hover:after {
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+  <button class="main__btn"><a href="index.html">BACK</button>  
+<div class="team">
+    <h1>Meet the Team</h1>
+    <div class="team__container">
+        <div class="team__card">
+            <img src="images/alleandro.png.jpg" alt="Team Member 1">
+            <h2>Alleandro"VIC"Mupira</h2>
+            <p>Front-end Developer</p>
+        </div>
+        <div class="team__card">
+            <img src="images/ENTITY.jpg"alt="Team Member 2">
+            <h2>Ayabonga Mhlungu</h2>
+            <p><strong>LEADER</strong><br>Backend Developer</p>
+        </div>
+        <div class="team__card">
+            <img src="images/farai.jpg" alt="Team Member 3">
+            <h2>Farai Shongedza</h2>
+            <p>Web developer</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
