@@ -6,4 +6,4 @@ Alleandro Mupira,
 Farai Shongedza,
 
 Projects done Together: 
-Coding Culb Website.
+Coding Club Website.
