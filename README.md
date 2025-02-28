@@ -1,6 +1,6 @@
 hello to our repository vistors, 
 
-team members
+team members(3): 
 Ayabonga Mhlungu(group leader),
 Alleandro Mupira,
 Farai Shongedza,
