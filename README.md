@@ -7,3 +7,5 @@ Farai Shongedza,
 
 Projects done Together: 
 Coding Club Website.
+
+Run the index.html file to start the home page...enjoy!
