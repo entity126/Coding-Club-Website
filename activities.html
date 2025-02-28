@@ -8,108 +8,152 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Additional CSS for alignment and spacing */
+        .main__content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .main__content h1,
+        .main__content h4 {
+            margin-bottom: 1.5rem; /* Increased spacing */
+        }
+
+        .main__content p {
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .main__btn {
+            margin: 15px; /* Increased spacing between buttons */
+            display: inline-block;
+            padding: 10px 20px; /* Added padding for better button size */
+        }
+
+        .services__container {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* Increased gap between service cards */
+            flex-wrap: wrap;
+            margin-top: 3rem; /* Added more space above the services section */
+            padding: 20px;
+        }
+
+        .services__card {
+            text-align: center;
+            max-width: 300px;
+            padding: 25px; /* Increased padding inside cards */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9; /* Added background color for better contrast */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+        }
+
+        .social__media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            background-color: #f8f9fa;
+            margin-top: 3rem; /* Added more space above the footer */
+        }
+
+        .social__buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px; /* Increased gap between social buttons */
+            flex-wrap: wrap;
+        }
+
+        .website__rights {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
-   <nav class="navbar">
-    <div class="navbar__container">
-        <a href="/Index.html" id="navbar__logo">C²</a>
-        <li class="navbar__btn">
-            <a href="https://forms.gle/P8vbbxJ7s4wXZ3pW9" class="button">
-                Sign Up
-            </a>
-        </li>
-        <div class="navbar__logo"></divclass>
-         <ul> 
-            <li><a href="/about.html" class="navbar__links">
-                About
-            </a></li>
-            <li><a href="/events.html" class="navbar__links">
-                Events
-            </a></li>
-            
-
-            
-        </ul>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/Index.html" id="navbar__logo">C²</a>
+            <li class="navbar__btn">
+                <a href="https://forms.gle/P8vbbxJ7s4wXZ3pW9" class="button">
+                    Sign Up
+                </a>
+            </li>
+            <div class="navbar__logo"></div>
+            <ul>
+                <li><a href="/about.html" class="navbar__links">
+                        About
+                    </a></li>
+                <li><a href="/events.html" class="navbar__links">
+                        Events
+                    </a></li>
+            </ul>
         </div>
-    </div>
         <div class="navbar__toggle" id="mobile-menu">
-           
-       
-    </div>
-   </nav>
-   <div class="main">
-    <div class="main__container">
-        <div class="main__content">
-           <h1 style="margin-top: 4rem;">ACTIVITIES</h1>
-            <h4 style="font-size: 2rem; margin-top: 4rem; ">WORKSHOPS</h4>
-            <p style="font-size: 1.5rem; font-display: space-between; ">
-                Join the interactive meeting we have, where we discuss IT concepts such as JavaScript, CSS, Html, Python, and etc
-            </p>
-            
-            <h4 style="font-size: 2rem; ">PROJECTS AND  PORTFOLIOS</h4>
-            <p style="font-size: 1.5rem; ">
-                Portfolio Building: <br>
-                Guidance on creating your own personal portfolio.<br>
-                Collaborative Projects: <br>
-                Work in teams to develop real-world
-                applications.<br>
-                Network Events: <br>
-                Connect with industry professionals and
-                fellow coders.<br>
-            </p>
-                <button class="main__btn"><a href="events.html">EVENTS</a></button>
-                     <button class="main__btn"><a href="about.html">ABOUT</a></button><br>
-        </div><br><br>
-    </div>
-   </div>
-   <div class="services">
-    <div class="services__container">
-        <div class="services__card">
-           
-
-
-            <h2>RESOURCES & PROJECTS</h2>
-            <p>Eperience Bliss</p>
-            <button class="main__btn"><a href="resources.html">NEXT</a></button>
         </div>
-        <div class="services__card">
-            <h2>MEET THE EXECUTIVE MEMBERS</h2>
-            
-            <button class="main__btn"><a href="executives.html">NEXT</a></button>
-    </div> 
-   </div>
-        <div class="fotter__link--wrapper">
-            <div class="footer__link--item">
-             <br><br>  
-                </li>
+    </nav>
+
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1 style="margin-top: 4rem;">ACTIVITIES</h1>
+                <h4 style="font-size: 2rem; margin-top: 2rem;">WORKSHOPS</h4>
+                <p style="font-size: 1.5rem;">
+                    Join the interactive meetings we have, where we discuss IT concepts such as JavaScript, CSS, HTML, Python, and more.
+                </p>
+
+                <h4 style="font-size: 2rem;">PROJECTS AND PORTFOLIOS</h4>
+                <p style="font-size: 1.5rem;">
+                    Portfolio Building: <br>
+                    Guidance on creating your own personal portfolio.<br>
+                    Collaborative Projects: <br>
+                    Work in teams to develop real-world applications.<br>
+                    Network Events: <br>
+                    Connect with industry professionals and fellow coders.<br>
+                </p>
+                <button class="main__btn"><a href="events.html">EVENTS</a></button>
+                <button class="main__btn"><a href="about.html">ABOUT</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="services__container">
+            <div class="services__card">
+                <h2>RESOURCES & PROJECTS</h2>
+                <p>Experience Bliss</p>
+                <button class="main__btn"><a href="resources.html">NEXT</a></button>
+            </div>
+            <div class="services__card">
+                <h2>MEET THE EXECUTIVE MEMBERS</h2>
+                <button class="main__btn"><a href="executives.html">NEXT</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"><i class="fas fa-gem"></i>CODINGCLUB</a>
+            </div>
+            <div class="social__buttons">
                 <button class="main__btn"><a href="https://www.instagram.com/codingclub404?igsh=MTB4amQzNWxnZDgzeg==">Instagram</a></button>
                 <button class="main__btn"><a href="http://tiktok.com/@codingclub404">TikTOK</a></button>
                 <button class="main__btn"><a href="https://www.linkedin.com/in/coding-club-3841b1349">Linkedin</a></button>
                 <button class="main__btn"><a href="https://github.com/CODINGCLUB404">GitHub</a></button>
-            </div>  
-           
-   <div class="footer__container">
-    <div class="footer__links">
-        <div class="fotter__link--wrapper">
-            <div class="footer__link--item">
-               
-            </div>  
-            
-        </div>
-    <div class="social__media">
-        <div class="social__media--wrap">
-            <div class="footer__logo">
-  
-            
-        </div>
-                <a href="/" id="footer__logo"><i class="fas.fa-gem   "></i>CODINGCLUB</a>
             </div>
             <p class="website__rights">&#169; CG3 2025. All rights reserved</p>
-            
         </div>
     </div>
-   </div>
-    <script src = "app.js"></script>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
