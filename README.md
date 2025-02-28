@@ -1,6 +1,8 @@
 hello to our repository vistors, 
 
-team members(3): 
+We are CG3.
+
+Our team members(3): 
 Ayabonga Mhlungu-Group Leader (EDUV9188883),
 Alleandro Mupira (Eduv5535437),
 Farai Shongedza (EDUV9289051),
