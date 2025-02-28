@@ -1,4 +1,4 @@
-hello to our repository vistors, 
+Hello to our repository vistors, 
 
 We are CG3.
 
