@@ -114,14 +114,14 @@
             text-align: center;
             margin-top: 20px;
         }
+
+        body{
+    background-color: #141414;
+  }
+  
     </style>
 </head>
- <!-- Video Background -->
- <div class="video-background">
-    <video autoplay muted loop>
-        <source src="Images/scifi.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+ 
 </div>
 <body>
     <nav class="navbar">
@@ -164,8 +164,10 @@
                     Network Events: <br>
                     Connect with industry professionals and fellow coders.<br>
                 </p>
-                <button class="main__btn"><a href="events.html">EVENTS</a></button>
-                <button class="main__btn"><a href="about.html">ABOUT</a></button>
+                <div>
+                    <a href="events.html"><button class="main__btn">EVENTS</button></a>
+                    <a href="about.html"><button class="main__btn">ABOUT</button></a>
+                </div>
             </div>
         </div>
     </div>
